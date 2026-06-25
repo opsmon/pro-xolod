@@ -31,7 +31,7 @@ export function HomePage() {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
     name: company.name,
-    url: "https://GITHUB_USERNAME.github.io/pro-holod/",
+    url: "https://opsmon.github.io/pro-xolod/",
     areaServed: company.city,
     ...(company.address ? { address: company.address } : {}),
     ...(company.phone ? { telephone: company.phone } : {}),
