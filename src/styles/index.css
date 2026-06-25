@@ -4,11 +4,12 @@
 
 :root {
   color: #16171a;
-  background: #f7f8fb;
+  background: #f7fbfc;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
-  --gradient-brand: linear-gradient(135deg, #f1c9ed 0%, #d9c9ff 35%, #74c7ff 70%, #8c7cff 100%);
+  --gradient-brand: linear-gradient(135deg, #00c8d8 0%, #4fddea 42%, #6f77ff 78%, #2f2490 100%);
+  --gradient-soft: linear-gradient(180deg, #f7feff 0%, #f4fbfc 48%, #fbf9fd 100%);
 }
 
 html {
@@ -34,7 +35,7 @@ a:focus-visible,
 input:focus-visible,
 select:focus-visible,
 textarea:focus-visible {
-  outline: 3px solid rgba(112, 199, 255, 0.85);
+  outline: 3px solid rgba(0, 200, 216, 0.72);
   outline-offset: 3px;
 }
 
@@ -48,9 +49,9 @@ textarea:focus-visible {
 }
 
 .glass {
-  background: rgba(255, 255, 255, 0.72);
-  border: 1px solid rgba(22, 23, 26, 0.08);
-  backdrop-filter: blur(18px);
+  background: rgba(255, 255, 255, 0.78);
+  border: 1px solid rgba(0, 200, 216, 0.12);
+  backdrop-filter: blur(16px);
 }
 
 .section {
@@ -58,9 +59,9 @@ textarea:focus-visible {
 }
 
 .card {
-  border: 1px solid rgba(22, 23, 26, 0.08);
-  background: rgba(255, 255, 255, 0.86);
-  box-shadow: 0 18px 60px rgba(74, 93, 132, 0.1);
+  border: 1px solid rgba(0, 200, 216, 0.1);
+  background: rgba(255, 255, 255, 0.88);
+  box-shadow: 0 16px 44px rgba(0, 122, 140, 0.08);
 }
 
 .link-button,
@@ -80,13 +81,13 @@ textarea:focus-visible {
 .primary-button {
   color: white;
   background: var(--gradient-brand);
-  box-shadow: 0 16px 40px rgba(140, 124, 255, 0.28);
+  box-shadow: 0 14px 34px rgba(0, 174, 194, 0.23);
 }
 
 .secondary-button {
   color: #16171a;
-  border: 1px solid rgba(22, 23, 26, 0.1);
-  background: rgba(255, 255, 255, 0.82);
+  border: 1px solid rgba(0, 200, 216, 0.16);
+  background: rgba(255, 255, 255, 0.78);
 }
 
 .link-button:hover,

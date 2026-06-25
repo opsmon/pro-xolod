@@ -46,34 +46,34 @@ export function BrandMark({ className = "" }: { className?: string }) {
       <defs>
         <radialGradient id="brand-shell" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(43 24) rotate(54) scale(96)">
           <stop stopColor="#fff7ff" />
-          <stop offset=".36" stopColor="#edd2f1" />
-          <stop offset=".72" stopColor="#a5e4ff" />
-          <stop offset="1" stopColor="#796eff" />
+          <stop offset=".34" stopColor="#ead2ec" />
+          <stop offset=".72" stopColor="#7eefff" />
+          <stop offset="1" stopColor="#2f2490" />
         </radialGradient>
         <radialGradient id="brand-base" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(43 22) rotate(50) scale(98)">
-          <stop stopColor="#fbe3fb" />
-          <stop offset=".48" stopColor="#e7c7f2" />
-          <stop offset="1" stopColor="#a98bff" />
+          <stop stopColor="#f8e2f5" />
+          <stop offset=".5" stopColor="#d8d0ff" />
+          <stop offset="1" stopColor="#60dce8" />
         </radialGradient>
         <linearGradient id="brand-upper" x1="21" y1="15" x2="102" y2="84" gradientUnits="userSpaceOnUse">
-          <stop stopColor="#f3cef4" />
-          <stop offset=".52" stopColor="#d9c8ff" />
-          <stop offset="1" stopColor="#f5d9ef" />
+          <stop stopColor="#ead2ec" />
+          <stop offset=".52" stopColor="#d8d0ff" />
+          <stop offset="1" stopColor="#f4def1" />
         </linearGradient>
         <linearGradient id="brand-lower" x1="22" y1="73" x2="110" y2="105" gradientUnits="userSpaceOnUse">
-          <stop stopColor="#f3d4ee" />
-          <stop offset=".55" stopColor="#d9caff" />
-          <stop offset="1" stopColor="#f7ddf0" />
+          <stop stopColor="#ead2ec" />
+          <stop offset=".55" stopColor="#d8d0ff" />
+          <stop offset="1" stopColor="#f4def1" />
         </linearGradient>
         <linearGradient id="brand-wave" x1="40" y1="72" x2="111" y2="42" gradientUnits="userSpaceOnUse">
-          <stop stopColor="#61bfff" />
-          <stop offset=".48" stopColor="#9ceaff" />
-          <stop offset="1" stopColor="#746cff" />
+          <stop stopColor="#00c8d8" />
+          <stop offset=".48" stopColor="#9cf7ff" />
+          <stop offset="1" stopColor="#2f2490" />
         </linearGradient>
         <linearGradient id="brand-glow" x1="37" y1="79" x2="109" y2="39" gradientUnits="userSpaceOnUse">
-          <stop stopColor="#5db7ff" stopOpacity=".95" />
-          <stop offset=".5" stopColor="#c8fbff" stopOpacity=".85" />
-          <stop offset="1" stopColor="#755cff" stopOpacity=".9" />
+          <stop stopColor="#00c8d8" stopOpacity=".96" />
+          <stop offset=".5" stopColor="#c8fbff" stopOpacity=".86" />
+          <stop offset="1" stopColor="#2f2490" stopOpacity=".9" />
         </linearGradient>
       </defs>
     </svg>
