@@ -1,0 +1,12 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="#f7f8fb"/>
+  <circle cx="920" cy="110" r="260" fill="#dff4ff"/>
+  <circle cx="210" cy="530" r="250" fill="#faeafa"/>
+  <rect x="90" y="95" width="1020" height="440" rx="48" fill="white" stroke="rgba(22,23,26,.08)"/>
+  <text x="150" y="230" font-family="Arial, sans-serif" font-size="72" font-weight="700" fill="#16171a">Про-Холод</text>
+  <text x="150" y="310" font-family="Arial, sans-serif" font-size="38" fill="#686b73">Кондиционеры в Комсомольске-на-Амуре</text>
+  <text x="150" y="382" font-family="Arial, sans-serif" font-size="34" fill="#16171a">Подбор, монтаж, чистка и обслуживание</text>
+  <rect x="150" y="430" width="300" height="64" rx="32" fill="url(#g)"/>
+  <text x="185" y="472" font-family="Arial, sans-serif" font-size="26" font-weight="700" fill="white">Расчёт стоимости</text>
+  <defs><linearGradient id="g" x1="150" y1="430" x2="450" y2="494"><stop stop-color="#f1c9ed"/><stop offset=".5" stop-color="#74c7ff"/><stop offset="1" stop-color="#8c7cff"/></linearGradient></defs>
+</svg>
